@@ -2,7 +2,12 @@
 # IVY ASSIGNMENT
 
 ## ASK FROM ASSIGNMENT
-
+ Given access to an autocomplete API running at `http://35.200.185.69:8000`, Task is to extract ALL possible names available through this API's autocomplete system.
+## REQUIREMENTS
+ 1. Writing a program that can efficiently extract all possible names from the autocomplete system
+ 2. Solution must work within the API's constraints.
+ 3. Document any interesting findings, endpoints, or features.
+ 4. Include your approach to solving rate limiting and other challenges you encounter
 ## Approach and Findings
 1. **Approach**: 
     - Analyzed the API documentation to understand the endpoints, parameters, and response structure.
@@ -11,15 +16,14 @@
     - Validated the data to ensure accuracy and completeness.
 
 2. **Findings**:
-    - Successfully retrieved and processed the data from the API.
+    - Time taken by one response is approximately 171 ms;
     - Identified key insights and patterns in the data.
     - Have 3 verions and the prefix is varying upto first 3 characters
-    - Time taken by one response - `169ms`
-    - Request processed (Without Rate Limiting) - `100`
+    - Request processed (Without Rate Limiting) -> 100.
 
 ## Tools and Scripts
 - **Scripts**: 
-  - Created a backent using the `Axios && Expressjs` library for API interaction.
+  - Created a backend using the `Axios' && 'Express.js` library for API interaction.
   - Used `generate.js` for prefix generation.
   - Implemented error handling to manage API rate limits and unexpected responses.
 
