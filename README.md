@@ -32,7 +32,7 @@
   - Expressjs,body-parser and Axios are used.
 
 ## Total Number of Requests
-- The total number of API requests made: [18768*3]
+- The total number of API requests made: [18719*3]
 
 ## Total Number of Records
 - The total number of records obtained from the API: [[v1]-10009,[v2]-4345,[v3]-3417]
